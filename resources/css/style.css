@@ -1,0 +1,136 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Ubuntu;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  width: 100%;
+  height: 64px;
+  border-bottom: 2px solid black;
+  background-color:white;
+}
+
+.name {
+  width: 200px;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.colmar {
+  font-weight: bold;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+  height: 64px;
+  flex-direction: row;
+}
+
+.logo img {
+  height: 95%;
+  padding-left: 24px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 16px;
+}
+
+nav {
+  display: flex !important;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.container-banner {
+  position: absolute;
+  height: 44rem;
+  top: 64px;
+  border: 2px solid black;
+  width: 100%;
+  background-color: lightgrey;
+  font-family: Roboto Mono;
+}
+
+.banner img {
+  float: left;
+  width: 60%;
+  height: auto;
+  padding: 32px 40px 32px 24px;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  padding-top: 13rem;
+  line-height: 1.25;
+}
+
+.banner h2 {
+  font-size: 1.5rem;
+}
+
+.banner p {
+  position: absolute;
+  margin-top: 3rem;
+  padding: 12px 0;
+  border: 2px solid black;
+  width: 325px;
+  float: right;
+  left: 65%;
+  text-align: center;
+  font-size: 1.125rem;
+  background-color: #36454f;
+  color: white;
+}
+
+.container-information {
+  width: 65%;
+  border: 2px solid black;
+  margin-top: 44.2rem;
+}
+
+.information img {
+  padding: 32px 24px;
+  width: 92.5%;
+  height: auto;
+}
+
+.information h1 {
+  padding-left: 24px;
+  padding-bottom: 24px;
+  font-family: Roboto Mono;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.information h2 {
+  font-size: 1.25rem;
+  padding-left: 24px;
+  font-family: Roboto Mono;
+}
+
+.information p {
+  font-family: Roboto Mono;
+  font-size: 1.1rem;
+  padding-top: 2.5rem;
+  padding-left: 24px;
+}
+
+.container-additional {
+  position: absolute;
+  top: 48.25rem;
+  right: 0px;
+  width: 34.5%;
+  border: 2px solid black;
+}
