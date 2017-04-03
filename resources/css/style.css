@@ -57,7 +57,7 @@ nav {
   position: absolute;
   height: 44rem;
   top: 64px;
-  border: 2px solid black;
+
   width: 100%;
   background-color: lightgrey;
   font-family: Roboto Mono;
@@ -84,7 +84,7 @@ nav {
   position: absolute;
   margin-top: 3rem;
   padding: 12px 0;
-  border: 2px solid black;
+
   width: 325px;
   float: right;
   left: 65%;
@@ -96,7 +96,7 @@ nav {
 
 .container-information {
   width: 65%;
-  border: 2px solid black;
+
   margin-top: 44.2rem;
 }
 
@@ -111,18 +111,19 @@ nav {
   padding-bottom: 24px;
   font-family: Roboto Mono;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 .information h2 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   padding-left: 24px;
   font-family: Roboto Mono;
+  padding-right: 24px;
 }
 
 .information p {
   font-family: Roboto Mono;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-top: 2.5rem;
   padding-left: 24px;
 }
@@ -132,5 +133,66 @@ nav {
   top: 48.25rem;
   right: 0px;
   width: 34.5%;
-  border: 2px solid black;
+  height: 44.1rem;
+  border-left: 1px solid lightgray;
+}
+
+.additional {
+  display: flex;
+  width: 100%;
+  height: 31%;
+  border-bottom: 1px solid lightgray;
+}
+
+.additional img {
+  width: 35%;
+  height: auto;
+  padding: 32px 24px 16px 24px;
+  display: inline-block;
+}
+
+.additional-text {
+  display: flex;
+  position: absolute;
+  font-family: Roboto Mono;
+  font-size: 1.25rem;
+  float: right;
+  width: 55%;
+  right: 0px;
+  height: 25%;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.additional .additional-text{
+  align-self: center;
+}
+
+.additional-text h2 {
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+
+.additional-text h3 {
+  padding-bottom: 10%;
+}
+
+.additional-guest {
+    display: flex;
+    width: 100%;
+    height: 31%;
+    border-left: 1px solid lightgray;
+    background-color: lightgray;
+}
+
+.additional-guest img {
+  width: 35%;
+  height: auto;
+  padding: 32px 24px 16px 24px;
+  display: inline-block;
+}
+
+.additional-guest {
+  align-items: center;
 }
