@@ -1,3 +1,5 @@
+/** Body Modifiers **/
+
 html {
   font-size: 18px;
 }
@@ -6,6 +8,8 @@ body {
   overflow-x: hidden;
   font-family: Ubuntu;
 }
+
+/** Header Navigation **/
 
 header {
   display: flex;
@@ -53,11 +57,12 @@ nav {
   flex-direction: row-reverse;
 }
 
+/** Main Banner **/
+
 .container-banner {
   position: absolute;
   height: 44rem;
   top: 64px;
-
   width: 100%;
   background-color: lightgrey;
   font-family: Roboto Mono;
@@ -84,7 +89,6 @@ nav {
   position: absolute;
   margin-top: 3rem;
   padding: 12px 0;
-
   width: 325px;
   float: right;
   left: 65%;
@@ -94,9 +98,10 @@ nav {
   color: white;
 }
 
+/** Main Information Banner **/
+
 .container-information {
   width: 65%;
-
   margin-top: 44.2rem;
 }
 
@@ -126,14 +131,17 @@ nav {
   font-size: 1rem;
   padding-top: 2.5rem;
   padding-left: 24px;
+  padding-bottom: 32px;
 }
+
+/** Additional Information **/
 
 .container-additional {
   position: absolute;
   top: 48.25rem;
   right: 0px;
   width: 34.5%;
-  height: 44.1rem;
+  height: 46rem;
   border-left: 1px solid lightgray;
 }
 
@@ -195,4 +203,81 @@ nav {
 
 .additional-guest {
   align-items: center;
+}
+
+/** Learning Section **/
+
+.container-learning {
+
+  display: flex;
+  height: 48rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: lightgray;
+}
+
+.container-learning h1 {
+  font-family: Roboto Mono;
+  font-weight: bold;
+  padding: 32px 0;
+  font-size: 2.25rem;
+  height: 30px;
+}
+
+.top-row {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  top: 100.75rem;
+
+}
+
+.learning-item {
+  width: 20%;
+  height: 100%;
+
+  font-family: Roboto Mono;
+  background-color:white;
+}
+
+.left {
+  margin-left: 17%;
+}
+
+.learning-item img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 16px;
+}
+
+.learning-item h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 24px;
+  padding-left: 16px;
+}
+
+.learning-item h3 {
+  padding-left: 16px;
+}
+
+.last-text {
+  font-size: .9rem;
+  padding-top: 10px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+}
+
+.middle {
+  margin: 0px 32px;
+}
+
+.bottom-row {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  top: 121rem;
+
 }
