@@ -284,7 +284,6 @@ nav {
 
 .container-thesis {
   height: 55rem;
-
 }
 
 .container-thesis h1 {
@@ -363,4 +362,24 @@ nav {
 
 .second-item {
   margin-top: 2rem;
+}
+
+/** Footer **/
+
+.footer {
+  display: flex;
+  border-top: 1px solid lightgray;
+  height: 50px;
+  align-items: center;
+  position: static;
+  z-index: 10;
+  justify-content: space-between;
+}
+
+.left-text {
+  padding-left: 24px;
+}
+
+.right-text {
+  padding-left: 1000px;
 }
