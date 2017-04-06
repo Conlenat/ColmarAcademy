@@ -208,12 +208,12 @@ nav {
 /** Learning Section **/
 
 .container-learning {
-
   display: flex;
   height: 48rem;
   justify-content: center;
   flex-wrap: wrap;
   background-color: lightgray;
+  padding-bottom: 32px;
 }
 
 .container-learning h1 {
@@ -236,7 +236,6 @@ nav {
 .learning-item {
   width: 20%;
   height: 100%;
-
   font-family: Roboto Mono;
   background-color:white;
 }
@@ -279,5 +278,89 @@ nav {
   width: 100%;
   height: 300px;
   top: 121rem;
+}
 
+/** Thesis Exhibit **/
+
+.container-thesis {
+  height: 55rem;
+
+}
+
+.container-thesis h1 {
+  padding: 32px 0;
+  font-size: 2.25rem;
+  text-align: center;
+  font-family: Roboto Mono;
+  font-weight: bold;
+}
+
+.thesis-video {
+
+  height: 85%;
+  width: 70%;
+  margin: 0 16px 0 24px;
+}
+
+.thesis-video h2 {
+  font-family: Roboto Mono;
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding-top: 24px;
+}
+
+.thesis-video h3 {
+  font-size: 1.5rem;
+  padding-top: 25px;
+  padding-bottom: 32px;
+}
+
+.thesis-side {
+  position: absolute;
+  height:72%;
+  top: 150.75rem;
+  right: 0;
+  width: 27.75%;
+
+}
+
+.thesis-side-item {
+  height: 168px;
+
+}
+
+.thesis-side-item img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.thesis-side-text {
+
+  float: right;
+  margin-right: 15px;
+  margin-top: 32px;
+  height: 100px;
+  width: 200px;
+}
+
+.thesis-side-text h2 {
+  margin-top: .5rem;
+  font-size: 1.1rem;
+  font-family: Roboto Mono;
+  font-weight: bold;
+}
+
+.thesis-side-text h3 {
+  font-size: .9rem;
+  font-family: Roboto Mono;
+  padding-top: 2rem;
+}
+
+.first-item {
+  background-color: lightgray;
+}
+
+.second-item {
+  margin-top: 2rem;
 }
