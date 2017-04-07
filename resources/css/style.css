@@ -9,6 +9,10 @@ body {
   font-family: Ubuntu;
 }
 
+.desktop-hide {
+  display: none;
+}
+
 /** Header Navigation **/
 
 header {
@@ -295,7 +299,6 @@ nav {
 }
 
 .thesis-video {
-
   height: 85%;
   width: 70%;
   margin: 0 16px 0 24px;
@@ -325,7 +328,6 @@ nav {
 
 .thesis-side-item {
   height: 168px;
-
 }
 
 .thesis-side-item img {
@@ -373,7 +375,6 @@ nav {
   align-items: center;
   position: static;
   z-index: 10;
-  justify-content: space-between;
 }
 
 .left-text {
@@ -382,4 +383,66 @@ nav {
 
 .right-text {
   padding-left: 1000px;
+}
+
+
+/** Media Queries **/
+
+@media screen and (max-width: 1025px) {
+  .thesis-side-text {
+    width: 100px;
+  }
+
+  .thesis-side-item {
+    height: 250px;
+  }
+
+  .container-additional{
+    height: 44rem;
+  }
+}
+
+@media screen  and (max-width: 770px) {
+
+  .desktop-hide {
+    display: block;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .banner {
+    height: 45%;
+    background-color: darkgray;
+  }
+
+  .banner-image {
+    display:none;
+  }
+
+  .banner h1 {
+    padding: 22rem 0 32px 16px;
+  }
+
+  .banner h2 {
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+
+  .logo img {
+    padding-left: 100px;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .banner p {
+    left: 160px;
+    top: 570px;
+    background-color: gray;
+  }
 }
