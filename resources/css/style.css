@@ -469,7 +469,7 @@ nav {
 
   .additional-text {
     margin-top: 17rem;
-    width: 100%;
+    width: 90%;
     left: 32px;
   }
 
@@ -502,7 +502,6 @@ nav {
     font-size: 2rem;
   }
 
-
   .left {
     margin: 0;
   }
@@ -525,6 +524,7 @@ nav {
 
   .container-thesis {
     top: 188rem;
+    height: 500px;
   }
 
   .thesis-video {
@@ -532,5 +532,13 @@ nav {
     width: 500px;
     height: 300px;
     margin-left: 50px;
+  }
+
+  .footer {
+    position: absolute;
+    top: 220rem;
+    margin-left: 0px;
+    width: 600px;
+    height: 56px;
   }
 }
