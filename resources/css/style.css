@@ -445,4 +445,92 @@ nav {
     top: 570px;
     background-color: gray;
   }
+
+  .container-additional {
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .additional img {
+    width: 95%;
+    height: 250px;
+  }
+
+  .additional-guest{
+    background-color: white;
+    margin-bottom: 15rem;
+  }
+
+  .additional-guest img {
+    width: 95%;
+    height: 250px;
+    margin-top: 1.2rem;
+  }
+
+  .additional-text {
+    margin-top: 17rem;
+    width: 100%;
+    left: 32px;
+  }
+
+  .container-thesis {
+    position: absolute;
+    top: 150rem;
+  }
+
+  .additional {
+    margin-bottom: 15rem;
+    margin-top: 1rem;
+  }
+
+  .top-row {
+    top: 150rem;
+    flex-direction: column;
+    width:75%;
+    height:20%;
+  }
+
+  .learning-item {
+    padding: 16px 0;
+    margin-bottom: 8px;
+    background-color: lightgray;
+    height: 300px;
+    width: 30rem;
+  }
+
+  .learning-item h2 {
+    font-size: 2rem;
+  }
+
+
+  .left {
+    margin: 0;
+  }
+
+  .middle {
+    margin: 8px 0;
+  }
+
+  .bottom-row {
+    top: 168rem;
+    flex-direction: column;
+    width: 75%;
+    height: 20%;
+  }
+
+  .container-learning h1 {
+    position: absolute;
+    top : 143rem;
+  }
+
+  .container-thesis {
+    top: 188rem;
+  }
+
+  .thesis-video {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+  }
 }
