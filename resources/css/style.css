@@ -402,7 +402,9 @@ nav {
   }
 }
 
-@media screen  and (max-width: 770px) {
+/** Mobile **/
+
+@media screen and (max-width: 770px) {
 
   .desktop-hide {
     display: block;
@@ -540,5 +542,53 @@ nav {
     margin-left: 0px;
     width: 600px;
     height: 56px;
+  }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 2000px) {
+  .container-banner {
+    height: 60rem;
+  }
+
+  .container-information {
+    margin-top: 63rem;
+  }
+
+  .container-additional {
+    top: 65.25rem;
+    height: 60rem;
+  }
+
+  .container-learning {
+    height: 58rem;
+  }
+
+  .top-row {
+    height: 350px;
+    top: 130rem;
+  }
+
+  .bottom-row {
+    height: 350px;
+    top: 155rem;
+  }
+
+  .thesis-side {
+    height: 80%;
+    top: 195rem;
+  }
+
+  .thesis-side-item {
+    height: 230px;
+  }
+
+  .footer {
+    position: absolute;
+    top: 250rem;
+  }
+
+  .right-text {
+    margin-left: 1400px;
+    padding-left: 0px;
   }
 }
